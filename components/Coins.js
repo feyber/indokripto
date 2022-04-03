@@ -57,7 +57,7 @@ const Coins = ({
       </div>
 
       {/* mobile */}
-      <div className="md:hidden bg-white w-full mt-1 rounded flex items-center justify-center px-2 py-6">
+      <div className="md:hidden bg-white w-full mt-1 rounded flex items-center justify-center px-6 py-6">
         <Link href={`/coin/${id}`}>
           <div className="flex flex-col gap-2 px-2">
             <div className="flex items-center justify-center">
@@ -69,7 +69,7 @@ const Coins = ({
                 className="w-12 h-12"
               />
             </div>
-            <div className="flex flex-col text-black text-lg items-center justify-center">
+            <div className="flex flex-col text-black text-lg items-center justify-center font-extrabold">
               <h1>{name}</h1>
               <p>{symbol}</p>
             </div>
