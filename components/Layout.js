@@ -52,7 +52,7 @@ const Layout = ({
           </Link>
         </Tilt>
       </header>
-      <main className="flex flex-col w-full bg-gray-900 md:w-11/12 py-4 px-2 md:py-8 md:px-12 bg-opacity-80 rounded-2xl shadow-2xl m-2 justify-center items-center">
+      <main className="flex flex-col w-full bg-gray-900 md:w-11/12 py-4 px-2 md:py-6 md:px-10 bg-opacity-80 rounded-2xl shadow-2xl m-2 justify-center items-center">
         {children}
       </main>
       <footer className="w-full p-8 flex flex-col items-center justify-center">

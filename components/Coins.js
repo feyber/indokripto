@@ -42,7 +42,7 @@ const Coins = ({
                   {priceChange.toFixed(2)} %
                 </p>
               ) : (
-                <p className="text-green-700">{priceChange.toFixed(2)}</p>
+                <p className="text-green-700">{priceChange.toFixed(2)} %</p>
               )}
               <div>
                 <h1 className="-ml-5">Market Cap.</h1>
